@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://inventory.data.gov/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/inventory-data-gov-domain-security.yml
   - type: Website
     url: https://inventory.data.gov
   - type: Documentation
